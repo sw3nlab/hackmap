@@ -8,11 +8,9 @@
   
     <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
     <script type="text/javascript">
-           YMaps.jQuery(function () {
-        
+           YMaps.jQuery(function () {     
             map = new YMaps.Map(document.getElementById("YMapsID"));
-
-            map.setCenter(new YMaps.GeoPoint(55.440648,63.649332), 4);
+            map.setCenter(new YMaps.GeoPoint(60.440648,63.649332), 4);
             map.addControl(new YMaps.ToolBar());
             map.addControl(new YMaps.TypeControl());
             map.addControl(new YMaps.Zoom());
