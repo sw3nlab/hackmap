@@ -12,7 +12,7 @@
         
             map = new YMaps.Map(document.getElementById("YMapsID"));
 
-            map.setCenter(new YMaps.GeoPoint(50.440648,63.649332), 4);
+            map.setCenter(new YMaps.GeoPoint(55.440648,63.649332), 4);
             map.addControl(new YMaps.ToolBar());
             map.addControl(new YMaps.TypeControl());
             map.addControl(new YMaps.Zoom());
@@ -44,7 +44,7 @@
   
   <style type="text/css">
     body{background-image:url(bg.jpg);}
-    #map{
+    #map{width:900px;height:460px;
       border-top:2px solid black;
       border-bottom:2px solid black;
       border-right:2px solid black;
