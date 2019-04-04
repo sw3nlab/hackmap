@@ -8,26 +8,36 @@
   
     <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
     <script type="text/javascript">
-
         YMaps.jQuery(function () {
         
             map = new YMaps.Map(document.getElementById("YMapsID"));
 
-            map.setCenter(new YMaps.GeoPoint(32.019766,59.448053), 5);
+            map.setCenter(new YMaps.GeoPoint(32.019766,59.448053), 13);
             map.addControl(new YMaps.ToolBar());
             map.addControl(new YMaps.TypeControl());
             map.addControl(new YMaps.Zoom());
             map.addControl(new YMaps.ScaleLine());
             var placemark_41 = new YMaps.Placemark(new YMaps.GeoPoint(),{style: "default#keyMasterIcon"});
             placemark_41.setIconContent(41);
-            placemark_41.name = "MakeITlab";
-            placemark_41.description = "Хакерспейс <br/><img src='foto/sm_1490964301.jpg' border=\'0\'/><br/>Описание: sdsdsd.<br/>VK: <a href='http://vk.com/'>Подробнее...</a>";
+            placemark_41.name = "Сдаётся в аренду";
+            placemark_41.description = "4 к. квартира<br/><img src='foto/sm_1490964301.jpg' border=\'0\'/><br/>Цена: 3500 руб.<br/><a href='id16x41'>Подробнее...</a>";
             map.addOverlay(placemark_41);var placemark_40 = new YMaps.Placemark(new YMaps.GeoPoint(),{style: "default#keyMasterIcon"});
             placemark_40.setIconContent(40);
             placemark_40.name = "Сдаётся в аренду";
             placemark_40.description = "3 к. квартира<br/><img src='foto/sm_1490964253.jpg' border=\'0\'/><br/>Цена: 3000 руб.<br/><a href='id15x40'>Подробнее...</a>";
             map.addOverlay(placemark_40);var placemark_39 = new YMaps.Placemark(new YMaps.GeoPoint(),{style: "default#keyMasterIcon"});
             placemark_39.setIconContent(39);
+            placemark_39.name = "Сдаётся в аренду";
+            placemark_39.description = "2 к. квартира<br/><img src='foto/sm_1490964226.jpg' border=\'0\'/><br/>Цена: 2500 руб.<br/><a href='id14x39'>Подробнее...</a>";
+            map.addOverlay(placemark_39);var placemark_38 = new YMaps.Placemark(new YMaps.GeoPoint(32.016686,59.456683),{style: "default#keyMasterIcon"});
+            placemark_38.setIconContent(38);
+            placemark_38.name = "Сдаётся в аренду";
+            placemark_38.description = "2 к. квартира<br/><img src='foto/sm_1490964202.jpg' border=\'0\'/><br/>Цена: 2000 руб.<br/><a href='id14x38'>Подробнее...</a>";
+            map.addOverlay(placemark_38);var placemark_37 = new YMaps.Placemark(new YMaps.GeoPoint(32.011278,59.456857),{style: "default#keyMasterIcon"});
+            placemark_37.setIconContent(37);
+            placemark_37.name = "Сдаётся в аренду";
+            placemark_37.description = "2 к. квартира<br/><img src='foto/sm_1490964180.jpg' border=\'0\'/><br/>Цена: 1990 руб.<br/><a href='id14x37'>Подробнее...</a>";
+            map.addOverlay(placemark_37);var placemark_36 = new YMaps.Placemark(new YMaps.GeoPoint(32.013768,59.456857),{style: "default#keyMasterIcon"});
         });
     </script> 
   
