@@ -1,1 +1,1 @@
-#Logo directory path
+# Logo directory path
