@@ -15,6 +15,7 @@
             map.addControl(new YMaps.TypeControl());
             map.addControl(new YMaps.Zoom());
             map.addControl(new YMaps.ScaleLine());
+             YMaps.Map(enableScrollZoom());
              
              var placemark_1 = new YMaps.Placemark(new YMaps.GeoPoint(30.344071,59.923973),{style: "default#workshopIcon"});
             placemark_1.setIconContent(38);
